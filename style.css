@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.sx{
+height: 10vh;
+width: 20vw;
+padding: 30px;
+float: left;
+}
+.dx{
+    height: 10vh;
+    width: 20vw;
+    padding: 30px;
+    float: right;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header{
+    width: 100vw;
+}
+header:after{
+    clear: both;
+    display: table;
+    content: "";
+}
