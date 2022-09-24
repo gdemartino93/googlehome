@@ -25,7 +25,9 @@ header a:hover{
 }
 header{
     width: 100vw;
+    height: 10vh;
 }
+
 header:after{
     clear: both;
     display: table;
@@ -36,4 +38,23 @@ logo{
     top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
+}
+.contenitorelogo{
+    width: 100%;
+    height: 200px;
+}
+.cerca{
+   height: 100%;
+   width: 100%;
+   background-color: red;
+   
+}
+.tastocerca{
+    transform: translate(-50%,-50%);
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
 }
